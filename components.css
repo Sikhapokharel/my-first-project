@@ -2,7 +2,7 @@
     margin: 0;
     box-sizing: border-box;
     padding: 0;
-    font-family: 'Roboto', sans-serif;
+    font: var(--unnamed-font-style-italic) normal var(--unnamed-font-weight-600) var(--unnamed-font-size-20)/var(--unnamed-line-spacing-26) var(--unnamed-font-family-freightmacro-pro);
 }
 .container{
     max-width: 500px;
@@ -32,4 +32,63 @@ a{
     font-size: 24px;
     color: #3944BC;
     font-weight: bold;
+}
+.container-flex{
+    display: flex;
+    margin-top: 200px;
+    margin-bottom: 200px;
+    background-color: aliceblue;
+    padding: 150px;
+}
+.content{
+    margin-right: 100px;
+    margin-left: 120px;
+
+}
+.content h5{
+    
+    width: 128px;
+    height: 20px;
+    text-align: left;
+    font: italic normal 600 20px/26px FreightMacro Pro;
+    color: #002743;
+    margin-top: 12px;
+}
+.content h1{
+    width:474px;
+    height:100px;
+    text-align: left;
+    font: normal normal normal 42px/48px Soleil;
+    color: #22282C;
+    margin-top: 12px;
+}
+.content p{
+    width: 455px;
+    height: 100px;
+    text-align: left;
+    font: normal normal 300 20px/28px Soleil;
+    color: #22282C;
+    margin-top: 28px;
+    margin-bottom: 32px ;
+}
+.image{
+    width: 500px;
+    height: 420px;
+    padding-left: 40px ;
+}
+.btn{
+    background-image: linear-gradient(to right, #3BB8EB , #007DB3);;
+    color: white;
+    padding: 12px 32px;
+    text-decoration: none;
+    border-radius: 22px 0px 24px 0px;
+    display: inline-block;
+    font: normal normal 300 20px/28px Soleil;
+}
+.content .seperator{
+    display: inline-block;
+    width: 60px;
+    height: 2px;
+    margin: 20px 0px;
+    background-color: orange;
 }
