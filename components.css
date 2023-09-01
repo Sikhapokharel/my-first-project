@@ -85,10 +85,75 @@ a{
     display: inline-block;
     font: normal normal 300 20px/28px Soleil;
 }
+
 .content .seperator{
     display: inline-block;
     width: 60px;
     height: 2px;
     margin: 20px 0px;
     background-color: orange;
+}
+
+
+
+
+/* sept 1 new components made */
+
+.container2{
+    margin: 50px auto;
+    padding: 200px 650px;
+  background-color:#002743 ;
+}
+.container2 h2{
+    
+    font: normal normal normal 32px/40px Soleil;
+    color: #002743;
+    text-align: center;
+}
+.container2 p{
+
+    font: normal normal 300 20px/28px Soleil;
+    color: #002743;
+    text-align: center;
+    padding: 30px 0px;
+
+}
+.btn1{
+    background-color: #7C7C7C;
+    color: white;
+    padding: 12px 32px;
+    text-decoration: none;
+    border-radius: 22px 0px 24px 0px;
+    display: inline-block;
+    font: normal normal 300 20px/28px Soleil;
+    width: 154px;
+    text-align: center;
+    margin-right: 24px;
+
+}
+
+.btn2 {
+    background-image: linear-gradient(to right, #3BB8EB , #007DB3);
+    
+}
+.btn2:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+.button{
+    display: flex;
+    justify-content: center;
+}
+.box{
+    padding: 60px 40px;
+    background-color: #ffffff;
+    border-radius: 30px 0px 30px 0px;
+}
+.line{
+    position: relative;
+    top: -60px;
+    left: 25%;
+    width: 50%;
+    background-color: black;
+    height: 5px;
+    display: flex;
 }
