@@ -1,0 +1,118 @@
+*{  
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+.container{
+    max-width: 1310px;
+    margin:0px auto;
+}
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.container .logo{
+    color: #000000;
+    font-family: Leckerli One;
+    font-size: 64px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: normal;
+}
+
+ul{
+    color: #000;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: right;
+}
+.nav-bar ul a{
+    margin-right: 75px;
+}
+ h1{
+    color: #000;
+    font-size: 75px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal; 
+    margin-bottom: 15px;
+    margin-top: 90px;
+}
+.container .content .hero-section .hero{
+    color: #050982;
+    font-size: 75px;
+    font-weight: 600;
+}
+.container .content .hero-section h5{
+    color: #000;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-bottom: 50px;
+}
+.container .content .hero-section p{
+    color: #000;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal; 
+    margin-bottom: 75px;
+}
+a{
+    text-decoration: none;
+}
+.call .btn{
+    color: #FFF;
+    font-size: 40px;
+    font-style: normal;
+    display: inline-block;
+    line-height: normal;
+    border-radius: 10px;
+    background: #03087B;
+    color: #ffffff;
+    padding: 16px 42px;
+}
+.content{
+    display: flex;
+}
+
+img{
+    position: absolute;
+    width: 276px;
+    height: 430px;
+    margin: 44px 36px 44px 36px;
+}
+.image .image-bg{
+    width: 348px;
+    height: 518px;
+    border-radius: 239.5px;
+    background: #131AC4;
+    box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.50);
+    position: absolute;
+    z-index: -1;
+}
+.image{
+    position: relative;
+
+}
+.image-section{
+    padding-left: 104px;
+    padding-top: 86px;
+
+}
+.image-section p{
+    color: #000;
+    text-align: center;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 300;
+    margin-top: 560px;
+    margin-left: 80px;
+}
