@@ -14,6 +14,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin-top: 90px;
 }
 .container .logo{
     color: #000000;
@@ -107,12 +108,14 @@ img{
     padding-top: 86px;
 
 }
-.image-section p{
+.name{
     color: #000;
-    text-align: center;
+    /* text-align: center; */
     font-size: 24px;
     font-style: normal;
     font-weight: 300;
-    margin-top: 560px;
-    margin-left: 80px;
+    position: absolute;
+    bottom: 110px; 
+    left: 1270px; 
+    
 }
