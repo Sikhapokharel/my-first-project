@@ -1,0 +1,24 @@
+<!-- making new count card componet -->
+            <div style="margin-bottom: 20px;"></div>
+            <div class="count-card">
+                <img src="images/user.png" alt="">
+                <div class="count">
+                    <h3 style>2,245,341</h3>
+                    <p>Members</p>
+                </div>
+            </div>
+
+            <!-- hero section  -->
+            <div class="hero-section">
+            <div class="discription">
+                <h1>Lessons and insights</br> <span class="hero-span"> from 8 years</span></h1>
+                <p>Where to grow your business as a photographer: site or social media?</p>
+            
+                <div class="btn-wrap">
+                    <a href="#" class="btn btn-primary">Register</a>
+                </div>
+            </div>
+
+            <div class="illustration"><img src="./images/Illustration.png" alt=""></div>
+
+            </div>
